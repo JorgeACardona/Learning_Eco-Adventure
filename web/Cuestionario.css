@@ -1,0 +1,115 @@
+#divContenedor{
+    background-color: white;
+    margin: 5%; 
+    margin-top: 10%;
+}
+
+.pregresp {
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-right: 3%;
+    }
+    
+    .pregunta {
+    color: #7DA5E0;
+    }
+    
+    .respuestas {
+    color: #000000;
+    }
+
+    #sep{
+        color:white;
+    }
+ #enviar{
+     background-color:#7DA5E0;
+     margin-left: 40%;
+     color: black;
+     width: 20%;
+     height: 50px;
+     font-size: 150%;
+     margin-top:2%;
+ }
+
+ #tit_cuestionario{
+color: bolder;
+padding-top: 2%;
+ }
+ 
+ body{
+    background-color:#b8c8f3;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: arial;
+    text-align:center;
+}
+
+#header {
+	background: rgb(52, 153, 235);
+	color: white;
+	height: 80px;
+        width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+}	
+#header a {
+	color: white;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}	
+#logo-header .titulo {
+	display: block;
+	font-weight: 300;
+	font-size: 2em;
+	color: white;
+        font-family:arial;
+	}
+      
+header img{
+        width: 5%;
+        height: 80%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 0.5%;
+}
+
+nav {
+        float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+			
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+        font-family:arial;
+}
+			
+nav ul li a:hover {
+	background: #0b76a6;
+}

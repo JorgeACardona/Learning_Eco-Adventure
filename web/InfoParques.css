@@ -1,0 +1,105 @@
+#elemento{
+    background-color: white;
+    margin: 5%;
+    margin-top: 10%;
+    
+}
+
+#titulo{
+    font-weight: bold;
+    padding-top: 5%;
+    text-align: center;
+    font-family:arial;
+}
+
+#Informacion{
+    margin: 3%;
+    font-size: 150%;
+    font-family:arial;
+    
+}
+
+
+#imagen{
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    margin-left: 37%;
+}
+
+#sep{
+    color:white;
+}
+
+#video{
+    text-align: center;
+}
+
+
+#header {
+	background: rgb(52, 153, 235);
+	color: white;
+	height: 80px;
+        width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+}	
+#header a {
+	color: white;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}	
+#logo-header .titulo {
+	display: block;
+	font-weight: 300;
+	font-size: 2em;
+	color: white;
+        font-family:arial;
+	}
+      
+header img{
+        width: 5%;
+        height: 80%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 0.5%;
+}
+
+nav {
+        float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+}
+			
+nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+        font-family:arial;
+}
+			
+nav ul li a:hover {
+	background: #0b76a6;
+}
+
+body{
+    background-color:#b8c8f3;
+    overflow-x: hidden;
+}
