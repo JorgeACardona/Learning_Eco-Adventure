@@ -18,16 +18,14 @@
             <div id="logo">
                 <img id="imagenlogo" src="logo.png">
 
-                <h1 id="titulohome">Bienvenidos a C-Educational</h1>
+                <h2 id="titulohome">!Bienvenidos a Learning Eco-Adventure</h2>
             </div> 
             
             
             <div id="botones">
                 <a href="Sesion.jsp"> <button id="Boton" class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button></a>
                 <br>
-                <button id="Boton" class="btn btn-lg btn-primary btn-block" type="submit">Registrarse</button>
-                <br>
-                <button id="Boton" class="btn btn-lg btn-primary btn-block" type="submit">¿Olvidó su contraseña?</button>
+                <a href="Registrarse.jsp"> <button id="Boton" class="btn btn-lg btn-primary btn-block" type="submit">Registrarse</button></a>
             </div>
         </div>
 
