@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="InfoParques.css" rel="stylesheet">
+        <link href="InfoParques1.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
@@ -43,6 +43,28 @@
         <div id="elemento">
             <h1 id="titulo">Parque Nacional Natural Tayrona</h1>
             <div id="Informacion">
+                <div class="content-all">
+<div class="content-carrousel">
+<figure><img src="tayronac1.jpg"></figure>
+<figure><img src="tayronac2.jpg"></figure>
+<figure><img src="tayronac3.jpg"></figure>
+<figure><img src="tayronac4.jpg"></figure>
+<figure><img src="tayronac5.jpg"></figure>
+<figure><img src="tayronac6.jpg"></figure>
+<figure><img src="tayronac7.jpg"></figure>
+<figure><img src="tayronac8.jpg"></figure>
+<figure><img src="tayronac9.jpg"></figure>
+<figure><img src="tayronac10.jpg"></figure>
+</div>
+</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+               
                 <p>El Tayrona sin lugar a dudas es uno de los parques
                 naturales de Colombia que debes visitar al menos
                 una vez en tu vida. Un escenario natural único en
@@ -53,6 +75,7 @@
                 praderas de algas, bosques secos y húmedos, y toda la flora y
                 fauna propia de la Sierra Nevada de Santa Marta, la montaña
                 costera más grande del mundo.</p>
+                
                 <img id="imagen" src="Tayrona2.jpg"></img>
                 <h2>¿Qué hacer?</h2>
                 <p>Desde la entrada del parque conocida como El Zaino, tendrás que

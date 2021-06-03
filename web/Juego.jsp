@@ -30,7 +30,7 @@
                     <ul>
                         <li><a href="">Opiniones</a></li>
                         <li><a href="Informacion.jsp">Información</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="Contacto.jsp">Contacto</a></li>
                         <li><a href="Home.jsp">Cerrar sesión</a></li>
                     </ul>
                 </li>

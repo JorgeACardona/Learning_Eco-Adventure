@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="InfoParques.css" rel="stylesheet">
+        <link href="InfoParques1.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Learning Eco-Adventure</title>
     </head>
@@ -42,6 +42,28 @@
         <div id="elemento">
             <h1 id="titulo">Parque Nacional Natural El Cocuy</h1>
             <div id="Informacion">
+                            <div class="content-all">
+<div class="content-carrousel">
+<figure><img src="cocuyc1.jpg"></figure>
+<figure><img src="cocuyc2.jpg"></figure>
+<figure><img src="cocuyc3.jpg"></figure>
+<figure><img src="cocuyc4.jpg"></figure>
+<figure><img src="cocuyc5.jpg"></figure>
+<figure><img src="cocuyc6.jpg"></figure>
+<figure><img src="cocuyc7.jpg"></figure>
+<figure><img src="cocuyc8.jpg"></figure>
+<figure><img src="cocuyc9.jpg"></figure>
+<figure><img src="cocuyc10.jpg"></figure>
+</div>
+</div>
+                
+                 <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <p>El Cocuy es otro de los parques naturales de Colombia en los que
                 aún hay presencia de nevados, en este parque ubicado entre los
                 departamentos de Boyacá y Arauca se extiende una sierra de al menos 25 picos nevados que 

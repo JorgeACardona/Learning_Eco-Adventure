@@ -20,6 +20,10 @@
     align-items:center;
     justify-content:center;
     height:100vh;
+    
+    background-color:#b8c8f3;
+    
+
 }
 .contenedor{
     display:grid;

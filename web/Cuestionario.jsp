@@ -26,20 +26,12 @@
             <ul class="nav">
 				<li><a href="Parques.jsp">Parques</a></li>
 				<li><a href="Cuestionario.jsp">Cuestionario</a>
-<<<<<<< HEAD
 				<li><a href="Juego.jsp">Juego</a></li>	
-=======
-				<li><a href="">Juego</a></li>	
->>>>>>> 7d88f6220243c6e666f1938ca1eaca6d97e7b747
 				<li><a href="">Más</a>
 					<ul>
 						<li><a href="">Opiniones</a></li>
 						<li><a href="Informacion.jsp">Información</a></li>
-<<<<<<< HEAD
 						<li><a href="Contacto.jsp">Contacto</a></li>
-=======
-						<li><a href="">Contacto</a></li>
->>>>>>> 7d88f6220243c6e666f1938ca1eaca6d97e7b747
 						<li><a href="Home.jsp">Cerrar sesión</a></li>
 					</ul>
 				</li>

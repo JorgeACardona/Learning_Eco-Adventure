@@ -1,0 +1,214 @@
+#elemento{
+    background-color: white;
+    margin: 5%;
+    margin-top: 10%;
+    
+}
+
+#titulo{
+    font-weight: bold;
+    padding-top: 5%;
+    text-align: center;
+    font-family:arial;
+}
+
+#Informacion{
+    margin: 3%;
+    font-size: 150%;
+    font-family:arial;
+    
+}
+
+
+#imagen{
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    margin-left: 37%;
+}
+
+#sep{
+    color:white;
+}
+
+#video{
+    text-align: center;
+}
+
+
+#header {
+    background: rgb(52, 153, 235);
+    color: black;
+    height: 130px;
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    position: fixed; 
+    border:solid 2px;
+}	
+#header a {
+    color: black;
+}
+
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: #0b76a6;
+}	
+#logo-header .titulo {
+    display: block;
+    font-weight: bolder;
+    font-size: 2em;
+    color: black;
+    font-family:arial;
+    margin-top: 8%;
+    
+}
+
+header img{
+    width: 8%;
+    height: 8%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 0.8%;
+    
+}
+
+#Parrafo{
+    margin-top:10%;
+   
+}
+
+.nav{
+    font-family: arial;
+    float: right;
+    margin-right: 10%;
+    margin-top:3%;
+    color: black;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:rgb(52, 153, 235);
+    color: black;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color: #0b76a6;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+body{
+    background-color:#b8c8f3;
+    overflow-x: hidden;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.content-all{
+width: 210px;
+margin: auto;
+perspective: 1000px;
+position: relative;
+margin-top: 50px;
+
+}
+
+.content-carrousel {
+width:100%;
+position: absolute;
+animation: rotar 10s infinite linear;
+transform-style: preserve-3d;
+
+
+}
+
+.content-carrousel:hover {
+animation-play-state:paused;
+cursor: pointer;
+}
+
+.content-carrousel figure{
+width: 100%;
+height: 120px;
+overflow:hidden;
+position: absolute;
+box-shadow:0px 0px 20px 0px black;
+transition: all 300ms;
+}
+
+.content-carrousel figure:hover{
+box-shadow:0px 0px 0px 0px black;
+transition: all 300ms;
+}
+
+
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg)
+translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg)
+translateZ(300px);}
+
+.content-carrousel img{
+width: 100%;
+transition: all 300ms;
+
+}
+
+.content-carrousel img{
+transform:scale(1.2);
+transition: all 300ms;
+}
+
+
+@keyframes rotar{
+from{
+transform: rotateY(0deg);
+}to{
+transform: rotateY(360deg);
+}
+}
+

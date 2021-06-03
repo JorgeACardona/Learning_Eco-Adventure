@@ -24,7 +24,7 @@
         
        
         
-        <form>
+        <form action="Parques.jsp">
         <h1 id="titulito">Learning Eco -Adventure</h1>
         
          <div id="labelsito">

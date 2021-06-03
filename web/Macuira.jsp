@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="InfoParques.css" rel="stylesheet">
+        <link href="InfoParques1.css" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Learning Eco-Adventure</title>
     </head>
@@ -42,6 +42,29 @@
        <div id="elemento">
             <h1 id="titulo">Parque Nacional Natural Macuira</h1>
             <div id="Informacion">
+                
+                                 <div class="content-all">
+<div class="content-carrousel">
+<figure><img src="macuirac1.jpg"></figure>
+<figure><img src="macuiracap.jpg"></figure>
+<figure><img src="macuirac3.jpg"></figure>
+<figure><img src="macuirac4.jpg"></figure>
+<figure><img src="macuira5.jpg"></figure>
+<figure><img src="macuirac6.jpg"></figure>
+<figure><img src="macuirac7.jpg"></figure>
+<figure><img src="macuirac8.jpg"></figure>
+<figure><img src="macuirac9.jpg"></figure>
+<figure><img src="macuirac10.jpg"></figure>
+</div>
+</div>
+                
+                   <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <p>La Macuira es uno de los más inexplorados parques naturales de Colombia, 
                     un rincón tan alejado y tan mágico, que solo pocos se han atrevido a descubrir 
                     este oasis en medio del área semidesértica de la Alta Guajira.</p>
