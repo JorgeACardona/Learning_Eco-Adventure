@@ -1,40 +1,66 @@
-#elemento{
-    background-color: white;
-    margin: 5%;
-    margin-top: 10%;
-    
+#cont_tarjetas{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
 }
 
-#titulo{
-    font-weight: bold;
-    padding-top: 5%;
+#cont_tarjetas #tarjeta{
+    width: 60%;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-right: 18%;
+    margin-left: 18%;
+    margin-top:8%;
     text-align: center;
+    transition: all 0.25s;
+    background-color:white;
+    border-color: black;
+    border: solid;
+}
+
+#cont_tarjetas #tarjeta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cont_tarjetas #tarjeta img{
+    width: 90%;
+    height: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#cont_tarjetas #tarjeta h3{
     font-family:arial;
+    font-weight: bolder;
+    margin: 7%;
+}
+body{
+    background-color:#b8c8f3;
+    overflow-x: hidden;
 }
 
-#Informacion{
-    margin: 3%;
-    font-size: 150%;
-    font-family:arial;
-    
-}
-
-
-#imagen{
-    width: 25%;
-    height: 25%;
-    text-align: center;
-    margin-left: 37%;
-}
-
-#sep{
+#boton{
+    background-color: rgb(52, 153, 235);
     color:white;
+    border-radius: 2%;
+    width: 150px;
+    height: 10%;
+    margin-top: 4%;
 }
 
-#video{
-    text-align: center;
+#Titulo{
+    margin-top: 11%;
+    text-align:center;
+    font-weight: bolder;
+    font-family: arial;
 }
-
 
 #header {
     background: rgb(52, 153, 235);
@@ -116,7 +142,4 @@ ul, ol {
 .nav li:hover > ul {
     display:block;
 }
-body{
-    background-color:#b8c8f3;
-    overflow-x: hidden;
-}
+

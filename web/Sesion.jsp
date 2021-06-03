@@ -24,7 +24,7 @@
         
        
         
-        <form>
+        <form action="Parques.jsp">
         <h1 id="titulito">Learning Eco -Adventure</h1>
         <div id="labelsito">
         <label  for="username">Correo Electrónico</label>
@@ -36,15 +36,15 @@
         <label  for="password">Contraseña</label>
         <input type="password" name="password" placeholder="Ingrese su contraseña"></input>
        </div>
-        <br></br>
-        <br></br>
+        <br>
+        <br>
         
       
         <a id="olvido"  href="Recuperar.jsp" >¿Has olvidado la contraseña? </a>
 
         
         
-        <a href="Parques.jsp" >
+        <a href="./Parques.jsp" >
          <button  id="botingresar" class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button></a>
          
       </form>

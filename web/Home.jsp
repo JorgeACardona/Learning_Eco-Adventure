@@ -18,7 +18,11 @@
             <div id="logo">
                 <img id="imagenlogo" src="logo.png">
 
+<<<<<<< HEAD
+                <h2 id="titulohome">Bienvenidos a Learning Eco-Adventure</h2>
+=======
                 <h2 id="titulohome">!Bienvenidos a Learning Eco-Adventure</h2>
+>>>>>>> 7d88f6220243c6e666f1938ca1eaca6d97e7b747
             </div> 
             
             

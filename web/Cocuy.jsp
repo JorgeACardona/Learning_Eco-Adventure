@@ -19,15 +19,23 @@
                 <span class="titulo">Learning Eco-Adventure</span>
 
             </div>
+            <div>
             <img src="logo.png">
-            <nav>
-                <ul>
-                    <li><a href="Parques.jsp">Inicio</a></li>
-                    <li><a href="Cuestionario.jsp">Cuestionario</a></li>
-                    <li><a href="#">Juego</a></li>
-                    <li><a href="#">Perfil</a></li>
-                </ul>
-            </nav>
+            </div>
+            <ul class="nav">
+				<li><a href="Parques.jsp">Parques</a></li>
+				<li><a href="Cuestionario.jsp">Cuestionario</a>
+				<li><a href="Juego.jsp">Juego</a></li>	
+				<li><a href="">Más</a>
+					<ul>
+						<li><a href="">Opiniones</a></li>
+						<li><a href="Informacion.jsp">Información</a></li>
+						<li><a href="Contacto.jsp">Contacto</a></li>
+						<li><a href="Home.jsp">Cerrar sesión</a></li>
+					</ul>
+				</li>
+				
+			</ul>
 
         </header>  
         
